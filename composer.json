@@ -1,0 +1,15 @@
+{
+    "name": "dendude/otus-1-2-7",
+    "description": "",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+
+        "dendude/simple-date-helper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DenDude\\": "vendor/dendude/simple-date-helper/src/"
+        }
+    }
+}
