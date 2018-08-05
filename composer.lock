@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f6d76f705c93d7e7eb4a68d1270a9a5",
+    "content-hash": "1e2879d010815b185c6dbae81b540c5f",
     "packages": [
         {
             "name": "dendude/simple-date-helper",
@@ -36,6 +36,39 @@
             ],
             "description": "Simple date formatter",
             "time": "2018-08-05T19:35:14+00:00"
+        },
+        {
+            "name": "tatyanagoncharova/sum",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TatyanaGoncharova/sum.git",
+                "reference": "58247c0c9c9e46cfdbd9886aff44ccbdabb814ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TatyanaGoncharova/sum/zipball/58247c0c9c9e46cfdbd9886aff44ccbdabb814ba",
+                "reference": "58247c0c9c9e46cfdbd9886aff44ccbdabb814ba",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TatyanaGoncharova\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tatyana Goncharova",
+                    "email": "tvgoncharova@yandex.ru"
+                }
+            ],
+            "description": "same description",
+            "time": "2018-08-05T17:40:45+00:00"
         }
     ],
     "packages-dev": [],
