@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DenDude\\": "vendor/dendude/simple-date-helper/src/"
+            "DenDude\\": "src/"
         }
     }
 }

@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "1e2879d010815b185c6dbae81b540c5f",
@@ -12,18 +12,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dendude/simple-date-helper.git",
-                "reference": "90f06b4bb9e51efee044ce08c4546150b949548a"
+                "reference": "90e3016a0f99c82196cedf294792f531bd0edc81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dendude/simple-date-helper/zipball/90f06b4bb9e51efee044ce08c4546150b949548a",
-                "reference": "90f06b4bb9e51efee044ce08c4546150b949548a",
+                "url": "https://api.github.com/repos/dendude/simple-date-helper/zipball/90e3016a0f99c82196cedf294792f531bd0edc81",
+                "reference": "90e3016a0f99c82196cedf294792f531bd0edc81",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DenDude\\": "src"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -35,7 +40,7 @@
                 }
             ],
             "description": "Simple date formatter",
-            "time": "2018-08-05T19:35:14+00:00"
+            "time": "2018-08-12T18:54:32+00:00"
         },
         {
             "name": "tatyanagoncharova/sum",

@@ -9,5 +9,5 @@
 ### Тест
 
 ````
-php cli/date-format '2018-05-12'
+php cli/date-convert.php '2018-05-12' # 12.05.2018
 ````

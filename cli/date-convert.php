@@ -1,12 +1,10 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$a = $_SERVER['argv'][1] ?? 0;
-$b = $_SERVER['argv'][2] ?? 0;
+$date_str = $_SERVER['argv'][1] ?? 'now';
 
 try {
-    $sum = new \TatyanaGoncharova\Sum();
-    echo $sum->sum($a, $b);
+    echo \DenDude\DateHelper::humanDate($date_str) . PHP_EOL;
 } catch (Throwable $e) {
     echo $e->getMessage();
     exit(1);
